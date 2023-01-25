@@ -9,6 +9,5 @@ jobs:
     uses: io-workflows/io-workflows/.github/workflows/devsecops.yml@main
     with:
       project-language: 'C++'
-#       project-name: 'MyProject'
-#       branch-name: 'MyBranch'
+      verbose-option: 'SilentlyContinue'
     secrets: inherit
